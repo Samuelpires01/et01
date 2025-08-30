@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nomeDigitado
+		inteiro anoNascimento
+		inteiro idade
+		escreva("digite um nome : ")
+		leia(nomeDigitado)
+		escreva(" escreva data de nascimento")
+		leia (anoNascimento)
+		idade = 2025 -anoNascimento
+		escreva("oi" + nomeDigitado + "sua idade aproximada é" + idade)
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 64; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
